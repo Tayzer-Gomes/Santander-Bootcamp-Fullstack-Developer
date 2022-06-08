@@ -1,0 +1,37 @@
+#Git/GitHub
+##Comandos
+	cd
+		Acessa pasta específica
+	dir
+		Lista pastas
+	mkdir		
+		Cria pastas
+	del
+		Apaga arquisvos dentro do diretório
+	rmdir
+		Apaga diretório
+###Entendendo como o Git funciona por baixo dos panos
+	SHA1
+		Algorítmo de Hash seguro
+		Conjunto de funções criptografadas
+		Criado pela NASA
+		Gera um conjunto de caracteres de 40 digítos(identificador)
+####Objetos fundamentais
+	Blobs
+		Metadados
+			Tipo de objetos
+			Tamanho do arquivo/objeto
+	Trees
+		Guarda o nome do arquivo
+		Monta as estruturas das árvores
+		Aponta para árvores ou blobs
+	Commits
+		Aponta para árvores
+		Aponta para um parente, autor e mensagem
+#####Chaves SSH e TOKENS
+	SSH
+		Forma de estabelecer uma conexão segura e criptada entre duas máquinas
+	Tracked
+		Ummodified
+			modified
+				staged
